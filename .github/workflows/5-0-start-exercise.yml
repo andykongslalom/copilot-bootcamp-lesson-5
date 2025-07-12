@@ -1,4 +1,4 @@
-name: Step 2-0 # Start Exercise
+name: Step 5-0 # Start Exercise
 
 on:
   push:
@@ -73,8 +73,8 @@ jobs:
             # Extract the workflow name from the file
             workflow_name=$(grep "^name:" "$workflow_file" | head -1 | sed 's/name: *//' | sed 's/ *#.*//')
 
-            # Skip Step 2-0 (current workflow) to avoid disabling itself
-            if [[ "$workflow_name" != "Step 2-0" ]]; then
+            # Skip Step 5-0 (current workflow) to avoid disabling itself
+            if [[ "$workflow_name" != "Step 5-0" ]]; then
               echo "Disabling workflow: $workflow_name"
               gh workflow disable "$workflow_name" || echo "Failed to disable $workflow_name or it's already disabled"
             fi
