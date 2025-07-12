@@ -12,7 +12,7 @@ permissions:
   issues: write
 
 env:
-  STEP_1_FILE: ".github/steps/2-1-preparing.md"
+  STEP_5_FILE: ".github/steps/5-1-checkout-code-refactoring.md"
 
 jobs:
   start_exercise:
@@ -22,7 +22,7 @@ jobs:
     uses: skills/exercise-toolkit/.github/workflows/start-exercise.yml@v0.4.0
     with:
       exercise-title: "GitHub Copilot Bootcamp"
-      intro-message: "Welcome to the Copilot Bootcamp tutorial! 🚀 This guided experience will take you through setting up your development environment with GitHub Codespaces, using GitHub Copilot's Agent Mode to modify the app's title, and then implementing new features. Get ready to experience the power of AI-assisted coding in a cloud development environment! 💻✨"
+      intro-message: "Welcome to the Copilot Bootcamp Lesson 5 tutorial! 🚀 This guided experience will take you through setting up your development environment with GitHub Codespaces, using GitHub Copilot's Agent Mode to modify the app's title, and then implementing new features. Get ready to experience the power of AI-assisted coding in a cloud development environment! 💻✨"
 
   post_next_step_content:
     name: Post next step content
@@ -46,7 +46,7 @@ jobs:
         id: build-comment
         uses: skills/action-text-variables@v2
         with:
-          template-file: ${{ env.STEP_1_FILE }}
+          template-file: ${{ env.STEP_5_FILE }}
           template-vars: |
             login: ${{ github.actor }}
             full_repo_name: ${{ github.repository }}
@@ -82,6 +82,6 @@ jobs:
 
       - name: Enable next workflow
         run: |
-          gh workflow enable "Step 2-1"
+          gh workflow enable "Step 5-1"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
