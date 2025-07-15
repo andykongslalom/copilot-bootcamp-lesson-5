@@ -95,3 +95,34 @@ After completing lesson 5, students will have:
 - Fixed all runtime errors
 - Converted JavaScript files to TypeScript (optional)
 - A fully functional item details management system
+
+
+
+## How to start this exercise
+
+Simply copy the exercise to your account, then wait **about 20 seconds** for the setup to complete, then **refresh the page**.
+
+> **Important:** Make sure to check the **"Include all branches"** checkbox when creating your repository. This is required for the exercise to work properly.
+>
+> ![Include all branches checkbox](/.github/assets/fork-include-branches.png)
+
+[![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=andykongslalom&template_name=copilot-bootcamp-lesson-5&owner=%40me&name=copilot-bootcamp-lesson-5&description=Lesson+5+Refactoring&visibility=public)
+
+<details>
+<summary>Having trouble? 🤷</summary><br/>
+
+When copying the exercise, we recommend the following settings:
+
+- For owner, choose your personal account or an organization to host the repository.
+- We recommend creating a public repository, since private repositories will use Actions minutes.
+   
+If the exercise isn't ready in 20 seconds, please check the Actions tab.
+
+- Check to see if a job is running. Sometimes it simply takes a bit longer.
+- If the page shows a failed job, please submit an issue.
+
+</details>
+
+---
+
+&copy; 2025 Slalom &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
