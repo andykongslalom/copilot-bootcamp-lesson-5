@@ -6,7 +6,7 @@ _Congratulations, you've completed session 5 of the Copilot Bootcamp tutorial an
 
 Here's a recap of your accomplishments:
 
-- Set up a new feature branch for code refactoring from the lesson-5-start branch
+- Set up a new feature branch for code refactoring from the `main` branch
 - Used GitHub Copilot Agent Mode with Claude Sonnet 4 to perform advanced code refactoring
 - Refactored long parameter lists into object-based parameters for cleaner code
 - Removed dead and unused code to improve code maintainability

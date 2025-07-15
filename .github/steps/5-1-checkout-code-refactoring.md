@@ -10,7 +10,7 @@ But first we will need to check out some poorly written code that needs some fix
 
 ### :keyboard: Activity: Checkout existing branch and push to new branch for modifications
 
-1. :arrow_down: Checkout the branch `lesson-5-start` :arrow_down:
+1. :arrow_down: Checkout the branch `main` if you are not already on it :arrow_down:
 
 2. :arrow_down: Install npm dependencies for this checked out branch `npm run install:all` :arrow_down:
 
@@ -26,7 +26,7 @@ But first we will need to check out some poorly written code that needs some fix
 ### Success Criteria
 
 To complete this exercise successfully, ensure that:
-   - A new `feature/code-refactoring` branch is pushed based on the branch `lesson-5-start`
+   - A new `feature/code-refactoring` branch is pushed based on the branch `main`
 
 If you encounter any issues, you can:
 - Double check that the newly pushed branch is called `feature/code-refactoring`

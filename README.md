@@ -1,6 +1,6 @@
 # Lesson 5 Starting Code Summary
 
-This branch (`lesson-5-start`) contains code specifically designed for the GitHub Copilot Bootcamp Lesson 5 refactoring and debugging exercises.
+This repository contains code specifically designed for the GitHub Copilot Bootcamp Lesson 5 refactoring and debugging exercises.
 
 ## What Was Added
 
@@ -101,10 +101,6 @@ After completing lesson 5, students will have:
 ## How to start this exercise
 
 Simply copy the exercise to your account, then wait **about 20 seconds** for the setup to complete, then **refresh the page**.
-
-> **Important:** Make sure to check the **"Include all branches"** checkbox when creating your repository. This is required for the exercise to work properly.
->
-> ![Include all branches checkbox](/.github/assets/fork-include-branches.png)
 
 [![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=andykongslalom&template_name=copilot-bootcamp-lesson-5&owner=%40me&name=copilot-bootcamp-lesson-5&description=Lesson+5+Refactoring&visibility=public)
 
